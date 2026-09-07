@@ -1,0 +1,19 @@
+[project]
+name = "generativeai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Deepak Bhatt", email = "bhattdeepak842@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.4.0",
+]
+
+[project.scripts]
+generativeai = "generativeai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
